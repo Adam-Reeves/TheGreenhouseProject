@@ -24,4 +24,3 @@ def insert_image_into_db(image, image_extension):
     conn.commit()
     conn.close()
     cur.close()
-

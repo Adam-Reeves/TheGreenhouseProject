@@ -1,2 +1,2 @@
-py-postgresql
+psycopg2-binary
 python-dotenv

@@ -3,3 +3,4 @@
 example.egg-info
 *.pyc
 .logs.txt
+node_modules

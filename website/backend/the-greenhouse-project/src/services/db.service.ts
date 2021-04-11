@@ -21,6 +21,7 @@ export async function retrieveImages(
       'SELECT * from greenhouse ORDER BY id DESC LIMIT $1::int OFFSET $2::int';
     const values = [limit, offset];
     const result = await client.query(query, values);
+    client.end();
     return result.rows;
   } catch (e) {
     console.log(e);

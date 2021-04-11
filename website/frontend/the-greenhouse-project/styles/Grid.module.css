@@ -1,0 +1,15 @@
+.root {
+    flex-grow: 1;
+  }
+  .paper {
+    padding: 5px;
+    text-align: 'center';
+  }
+  .image {
+      width: 100%;
+      display: inline-block;
+  }
+
+  .gridItem {
+      display: inline-block;
+  }

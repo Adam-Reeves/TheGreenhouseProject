@@ -1,0 +1,5 @@
+{
+    "eslint.workingDirectories": [
+      "website/backend/the-greenhouse-project"
+    ]
+  }

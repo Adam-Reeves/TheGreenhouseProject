@@ -2,3 +2,4 @@
 .tox
 example.egg-info
 *.pyc
+.logs.txt
